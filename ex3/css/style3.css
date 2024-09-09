@@ -1,0 +1,173 @@
+body {
+    margin: 0; /* Remove a margem padrão da página */
+    padding: 0; /* Remove o preenchimento padrão da página */
+}
+
+header {
+    background-image: url(../imagens/project-1.png); /* Define a imagem de fundo para o cabeçalho */
+    background-repeat: no-repeat; /* Evita que a imagem de fundo seja repetida */
+    background-size: cover; /* Faz com que a imagem cubra todo o fundo do cabeçalho */
+    background-position: center; /* Centraliza a imagem de fundo */
+    width: 100%; /* Define a largura do cabeçalho para 100% da largura da tela */
+    height: 720px; /* Define a altura do cabeçalho */
+    padding-top: 15px; /* Adiciona espaço acima do conteúdo do cabeçalho */
+}
+
+nav {
+    background-color: black; /* Define a cor de fundo da barra de navegação como preta */
+    min-width: 1200px; /* Define a largura mínima da barra de navegação */
+    max-width: 1400px; /* Define a largura máxima da barra de navegação */
+    height: 125px; /* Define a altura da barra de navegação */
+    margin: 0 auto; /* Centraliza horizontalmente a barra de navegação */
+}
+
+nav #logo {
+    margin: 23px; /* Adiciona margem ao redor do logo */
+    float: left; /* Posiciona o logo à esquerda da barra de navegação */
+}
+
+nav #logo img {
+    height: 75px; /* Define a altura da imagem do logo */
+}
+
+nav ul {
+    display: flex; /* Usa o modelo de layout flexbox */
+    flex-direction: row; /* Coloca os itens de navegação em linha */
+    margin: 0; /* Remove a margem padrão da lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+nav ul li {
+    color: white; /* Define a cor do texto dos itens de navegação como branca */
+    font-size: 20px; /* Define o tamanho da fonte dos itens de navegação */
+    font-family: Montserrat, sans-serif; /* Define a fonte dos itens de navegação */
+    list-style: none; /* Remove as bolinhas padrão da lista */
+}
+
+nav ul li a {
+    padding: 25px 20px 25px 0; /* Adiciona preenchimento ao redor dos links */
+    float: left; /* Posiciona os links à esquerda dentro do item de lista */
+}
+
+nav menu {
+    float: right; /* Posiciona o menu à direita da barra de navegação */
+}
+
+#menu li span {
+    font-family: Montserrat, sans-serif; /* Define a fonte do span */
+    font-size: 11px; /* Define o tamanho da fonte do span */
+    color: rgb(94, 94, 94); /* Define a cor do texto do span */
+    margin-right: 3px; /* Adiciona margem à direita do span */
+    margin-top: 6px; /* Adiciona margem acima do span */
+    float: left; /* Posiciona o span à esquerda dentro do item de lista */
+}
+
+#menu li a {
+    color: white; /* Define a cor do texto dos links como branca */
+    font-size: 15px; /* Define o tamanho da fonte dos links */
+    text-transform: uppercase; /* Converte o texto dos links para letras maiúsculas */
+    text-decoration: none; /* Remove a decoração do texto (sublinhado) dos links */
+    transition: 1s; /* Define uma transição suave ao interagir com os links */
+}
+
+#menu li a:hover {
+    color: #e7a920; /* Altera a cor do texto do link ao passar o mouse */
+    transition: 1s; /* Define uma transição suave ao alterar a cor */
+    text-decoration: line-through; /* Adiciona um risco no texto do link ao passar o mouse */
+}
+
+.regua {
+    background-image: url(../imagens/divider-dark.png); /* Define uma imagem de fundo para a régua */
+    background-repeat: repeat-x; /* Faz com que a imagem de fundo se repita horizontalmente */
+    padding-top: 100px; /* Adiciona preenchimento superior à régua */
+}
+
+.icons {
+    height: 120px; /* Define a altura do contêiner de ícones */
+    width: 345px; /* Define a largura do contêiner de ícones */
+    margin: 0 auto; /* Centraliza horizontalmente o contêiner de ícones */
+    display: flex; /* Usa o modelo de layout flexbox */
+    flex-direction: row; /* Posiciona os ícones em linha */
+}
+
+.icons .icon img {
+    width: 115px; /* Define a largura das imagens dos ícones */
+}
+
+.txt {
+    height: 100px; /* Define a altura do contêiner de texto */
+    width: 850px; /* Define a largura do contêiner de texto */
+    margin: 0 auto; /* Centraliza horizontalmente o contêiner de texto */
+}
+
+.txt h6 {
+    font-size: 20px; /* Define o tamanho da fonte do texto */
+    font-weight: 300; /* Define o peso da fonte do texto (mais leve) */
+    width: 80%; /* Define a largura do texto */
+    display: inline-block; /* Exibe o texto como um bloco inline */
+    line-height: 40px; /* Define a altura da linha do texto */
+    font-family: Montserrat, sans-serif; /* Define a fonte do texto */
+    text-align: center; /* Centraliza o texto */
+    margin: 0; /* Remove a margem padrão do texto */
+    margin-left: 95px; /* Adiciona margem à esquerda do texto */
+    margin-top: 40px; /* Adiciona margem acima do texto */
+}
+
+.header {
+    min-width: 1200px; /* Define a largura mínima do cabeçalho */
+    max-width: 1400px; /* Define a largura máxima do cabeçalho */
+    margin: 0 auto; /* Centraliza horizontalmente o cabeçalho */
+    text-align: center; /* Centraliza o texto dentro do cabeçalho */
+}
+
+.trabalhos {
+    margin-top: 110px; /* Adiciona margem superior à seção de trabalhos */
+}
+
+.trabalhos .header h4 span {
+    color: #e7a920; /* Define a cor do texto do span */
+    text-transform: uppercase; /* Converte o texto para letras maiúsculas */
+    letter-spacing: 11px; /* Define o espaçamento entre as letras */
+    font-weight: 300; /* Define o peso da fonte do texto (mais leve) */
+    font-size: 24px; /* Define o tamanho da fonte do texto */
+    font-family: 'Montserrat', sans-serif; /* Define a fonte do texto */
+}
+
+.trabalhos .header h4 b {
+    font-weight: 700; /* Define o peso da fonte do texto (mais grosso) */
+    font-family: 'Montserrat', sans-serif; /* Define a fonte do texto */
+    font-size: 85px; /* Define o tamanho da fonte do texto */
+    text-transform: uppercase; /* Converte o texto para letras maiúsculas */
+    color: #000; /* Define a cor do texto como preto */
+}
+
+.trabalhos .header p {
+    font-family: 'Montserrat', sans-serif; /* Define a fonte do parágrafo */
+    font-size: 20px; /* Define o tamanho da fonte do parágrafo */
+    color: rgb(88, 88, 88); /* Define a cor do texto do parágrafo */
+    margin: 12px 0 0 0; /* Define a margem do parágrafo */
+}
+
+.trabalhos .mosaico {
+    min-width: 1200px; /* Define a largura mínima do mosaico */
+    max-width: 1400px; /* Define a largura máxima do mosaico */
+    margin: 0 auto; /* Centraliza horizontalmente o mosaico */
+}
+
+.trabalhos .mosaico .item {
+    height: 470px; /* Define a altura dos itens do mosaico */
+    width: 570px; /* Define a largura dos itens do mosaico */
+    background-image: url(../imagens/project-1.png); /* Define a imagem de fundo para os itens do mosaico */
+    background-size: contain; /* Faz com que a imagem caiba no item */
+    background-position: center; /* Centraliza a imagem de fundo dentro do item */
+}
+
+.trabalhos .mosaico .item:hover {
+    background-size: 110%; /* Aumenta o tamanho da imagem de fundo ao passar o mouse */
+    background-position: center; /* Centraliza a imagem de fundo ao passar o mouse */
+}
+
+/*-------------------------------------trabalhos-----------------------------------------*/
+#trabalho {
+    background-color: blue; /* Define a cor de fundo do elemento com id "trabalho" */
+}
